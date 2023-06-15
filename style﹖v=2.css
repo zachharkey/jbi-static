@@ -1,0 +1,726 @@
+/**********************start cardo font**********************/
+
+@font-face {
+  font-family: 'Cardo-Regular';
+  src: url('font/Cardo-Regular%EF%B9%96.eot#iefix') format('embedded-opentype'), url('font/Cardo-Regular.woff') format('woff'),
+  url('font/Cardo-Regular.ttf') format('truetype'), url('font/Cardo-Regular.svg#Cardo-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*@font-face {
+  font-family: 'Cardo-Italic';
+  src: url('font/Cardo-Italic%EF%B9%96.eot#iefix') format('embedded-opentype'),  url('font/Cardo-Italic.woff') format('woff'), 
+  url('font/Cardo-Italic.ttf')  format('truetype'), url('font/Cardo-Italic.svg#Cardo-Italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}*/
+
+@font-face {
+  font-family: 'Cardo-Italic';
+  src: url('font/Cardo-Italic%EF%B9%96.eot#iefix') format('embedded-opentype'), url('font/Cardo-Italic.woff') format('woff'),
+  url('font/Cardo-Italic.ttf') format('truetype'), url('font/Cardo-Italic.svg#Cardo-Italic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cardo-Bold';
+  src: url('font/Cardo-Bold%EF%B9%96.eot#iefix') format('embedded-opentype'), url('font/Cardo-Bold.woff') format('woff'),
+  url('font/Cardo-Bold.ttf') format('truetype'), url('font/Cardo-Bold.svg#Cardo-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/**********************end cardo font**********************/
+
+/**********************start nunito font**********************/
+
+@font-face {
+  font-family: 'Nunito-Bold';
+  src: url('font/Nunito-Bold%EF%B9%96.eot#iefix') format('embedded-opentype'), url('font/Nunito-Bold.woff') format('woff'),
+  url('font/Nunito-Bold.ttf') format('truetype'), url('font/Nunito-Bold.svg#Nunito-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito-Light';
+  src: url('font/Nunito-Light%EF%B9%96.eot#iefix') format('embedded-opentype'), url('font/Nunito-Light.woff') format('woff'),
+  url('font/Nunito-Light.ttf') format('truetype'), url('font/Nunito-Light.svg#Nunito-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito-Regular';
+  src: url('font/Nunito-Regular%EF%B9%96.eot#iefix') format('embedded-opentype'), url('font/Nunito-Regular.woff') format('woff'),
+  url('font/Nunito-Regular.ttf') format('truetype'), url('font/Nunito-Regular.svg#Nunito-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/**********************end nunito font**********************/
+.padding0 {
+  padding: 0;
+}
+
+.padding_left0 {
+  padding-left: 0;
+}
+
+.padding_right0 {
+  padding-right: 0;
+}
+
+.padding_left30 {
+  padding: 0 0 0 58px;
+}
+
+.padding_right6 {
+  padding: 0 6px 0 0;
+  margin: 12px 0 0 0;
+}
+
+.padding_left6 {
+  padding: 0 0 0 6px;
+  margin: 12px 0 0 0;
+}
+
+.buzz_heading {
+  border-bottom: 3px solid #aabab6;
+  margin-bottom: 30px;
+}
+
+.left_saidbar {
+  /*border-right:3px solid #aabab6;*/
+  padding-right: 26px;
+}
+
+.issue {
+  background-color: #aebcbc;
+  font-size: 19px;
+  font-family: 'Cardo-Regular';
+  /*font-family: 'Cardo-Bold';*/
+  color: #000000;
+  width: 100%;
+  float: left;
+  text-align: center;
+  letter-spacing: 1px;
+  height: 43px;
+  line-height: 43px;
+  margin: 27px 0 0 0
+}
+
+.block {
+  padding-left: 28px;
+  border-left: 3px solid #aabab6;
+}
+
+.block_head {
+  background-color: #4a4f55;
+  padding: 35px 23px 25px 23px;
+  text-align: center;
+  margin-bottom: 23px;
+}
+
+.block_head h2 {
+  font-family: 'Cardo-Regular';
+  font-size: 40px;
+  color: #ffffff;
+  margin: 0;
+}
+
+.block_head p {
+  font-size: 22px;
+  color: #ffffff;
+  font-family: 'Cardo-Italic';
+  margin: 0;
+  line-height: 33px;
+}
+
+.block_text {
+  font-size: 16px;
+  line-height: 21.5px;
+  color: #4a4f55;
+  font-family: 'Nunito-Light';
+  margin-bottom: 23px;
+  margin-top: -5px;
+}
+
+.round_brown_dingbat {
+  border-bottom: 3px solid #aabab6;
+  border-top: 3px solid #aabab6;
+  padding: 9px 0;
+  margin: 27px 0 30px 0;
+}
+
+.mag_cover {
+  /*height:505px;*/
+  height: 493px;
+  border-right: 3px solid #aabab6;
+}
+
+.laundry {
+  width: 390px;
+  margin: 30px 0 0 0;
+}
+
+.thume img {
+  height: 621px;
+}
+
+.ajc_com {
+  border-right: 3px solid #aabab6;
+  height: 202px;
+}
+
+.ajc_left_img {
+  width: 370px;
+}
+
+.ajc_img {
+  width: 320px;
+  margin-left: -25px;
+  height: 529px;
+}
+
+.homeowner {
+  padding-top: 25%;
+}
+
+.mirrors {
+  padding-top: 15%;
+}
+
+.entry {
+  padding-top: 10%;
+}
+
+.indulgence {
+  height: 479px;
+}
+
+.beautiful {
+  font-family: 'Nunito-Regular';
+  font-size: 22px;
+  color: #4a4f55;
+  text-align: center;
+  line-height: 29px;
+  margin: 10px 0 20px 0;
+}
+
+.pops {
+  font-size: 16px;
+  margin: 5px 0 12px 0;
+  color: #4a4f55;
+  font-family: 'Nunito-Light';
+}
+
+.fashion {
+  /*height:340px;*/
+  height: auto;
+  margin-top: 12px;
+}
+
+.margin_top {
+  margin-top: 12px;
+  height: auto;
+}
+
+.space {
+  height: 12px;
+  width: 100%;
+  float: left;
+}
+
+.blueprint {
+  padding-right: 0;
+}
+
+.blueprint2 {
+  padding: 0 6px 0 0;
+  margin: 12px 0 0 0;
+}
+
+.blueprint3 {
+  padding: 0 0 0 6px;
+  margin: 12px 0 0 0;
+}
+
+.space2 {
+  height: 20px;
+  width: 100%;
+  float: left;
+}
+
+.design_colum1 {
+  float: left;
+  padding: 0 15px;
+  width: 32.2%;
+}
+
+.design_colum2 {
+  float: left;
+  padding: 0;
+  width: 23%;
+}
+
+.design_colum3 {
+  float: left;
+  padding-left: 15px;
+  width: 44.8%;
+}
+
+.design_colum2 img, .design_colum3 img {
+  height: 463px;
+}
+
+.colum_small1 {
+  padding: 0 11px 0 0;
+}
+
+.colum_small3 {
+  padding: 0 6px 0 0;
+}
+
+.colum_small1 img, 
+.colum_small3 img{
+  height: 338px;
+}
+
+.living_room {
+  padding-top: 20px;
+}
+
+.column_imgf {
+  padding-left: 0;
+}
+
+.column_imgh img{
+  max-width: calc(50% - 2em);
+  max-height: 240px;
+  margin: 1em .5em 1em 0;
+}
+
+@media only screen and (min-width: 1171px) {
+
+  .container {
+    width: 1170px !important;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1170px) {
+  .issue {
+    font-size: 20px;
+  }
+
+  .block_head p {
+    font-size: 21px;
+  }
+
+  .colum_small1 img, .colum_small3 img {
+    height: 260px;
+  }
+
+  .mag_cover {
+    height: 411px;
+  }
+
+  .laundry {
+    width: 325px;
+  }
+
+  .thume img {
+    height: 472px;
+  }
+
+  .ajc_com {
+    height: 180px;
+  }
+
+  .ajc_left_img {
+    width: 302px;
+  }
+
+  .ajc_img {
+    width: 278px;
+    height: auto;
+  }
+
+  .design_colum2 img, .design_colum3 img {
+    height: 376px;
+  }
+
+  /*.margin_top, .fashion
+  {
+    height:310px;
+  }*/
+  .fashion_home2 {
+    padding: 0 12px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .issue {
+    font-size: 14px;
+  }
+
+  .issue > span {
+    font-size: 12px !important;
+  }
+
+  .block_head h2 {
+    font-size: 30px;
+  }
+
+  .block_text {
+    font-size: 12px;
+  }
+
+  .mag_cover {
+    height: 322px;
+  }
+
+  .laundry {
+    width: 250px;
+    margin-top: 48px;
+    height: 322px;
+  }
+
+  .thume img {
+    height: auto;
+  }
+
+  .ajc_com {
+    height: 152px;
+  }
+
+  .ajc_left_img {
+    width: 230px;
+  }
+
+  .ajc_img {
+    width: 214px;
+    height: auto;
+  }
+
+  .design_colum2 img, .design_colum3 img {
+    height: 282px;
+  }
+
+  /*.margin_top, .fashion
+  {
+    height:215px;
+  }*/
+  .fashion_home2 {
+    padding: 0 9px;
+  }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .left_saidbar {
+    padding-right: 15px;
+    border-right: inherit !important;
+  }
+
+  .block {
+    border-left: inherit;
+    padding-left: 15px;
+    padding-top: 27px;
+  }
+
+  .block_head h2 {
+    font-size: 30px;
+  }
+
+  .padding_left0, .padding_right0 {
+    padding: 0;
+  }
+
+  .colum_small1, .colum_small3 {
+    padding: 5px 0;
+  }
+
+  .colum_small1 img, .colum_small3 img {
+    height: auto;
+  }
+
+  .mag_cover, .ajc_com {
+    border-right: inherit;
+    height: auto;
+  }
+
+  .laundry, .ajc_left_img {
+    width: 100%;
+  }
+
+  .thume {
+    padding: 0 !important;
+  }
+
+  .thume img {
+    height: auto;
+    margin: 5px 0;
+  }
+
+  .ajc_img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .block_text {
+    margin-top: 0;
+  }
+
+  .blueprint, .padding_left30 {
+    padding: 0 15px;
+  }
+
+  .blueprint2, .blueprint3 {
+    padding: 0 15px;
+  }
+
+  .design_colum1, .design_colum2, .design_colum3 {
+    width: 100%;
+    padding: 0 15px 10px 15px;
+  }
+
+  .design_colum2 img, .design_colum3 img, .margin_top, .fashion {
+    height: auto;
+  }
+
+  .padding_right6, .padding_left6, .fashion_home2 {
+    padding: 0;
+  }
+
+  .responsive_padding {
+    padding-top: 20px;
+  }
+
+  .homeowner, .mirrors, .entry {
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .issue {
+    margin: 27px 0 0 !important;
+  }
+
+  .living_room {
+    padding-top: 0;
+  }
+
+  .block_text {
+    margin-bottom: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 479px) {
+  .left_saidbar {
+    padding-right: 15px;
+    border-right: inherit !important;
+  }
+
+  .issue {
+    font-size: 20px;
+  }
+
+  .block {
+    border-left: inherit;
+    padding-left: 15px;
+    padding-top: 27px;
+  }
+
+  .block_head h2 {
+    font-size: 26px;
+  }
+
+  .padding_left0, .padding_right0 {
+    padding: 0;
+  }
+
+  .colum_small1, .colum_small3 {
+    padding: 5px 0;
+  }
+
+  .colum_small1 img, .colum_small3 img {
+    height: auto;
+  }
+
+  .mag_cover, .ajc_com {
+    border-right: inherit;
+    height: auto;
+  }
+
+  .laundry, .ajc_left_img {
+    width: 100%;
+  }
+
+  .thume {
+    padding: 0 !important;
+  }
+
+  .thume img {
+    height: auto;
+    margin: 5px 0;
+  }
+
+  .ajc_img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .block_text {
+    margin-top: 0px;
+  }
+
+  .blueprint, .padding_left30 {
+    padding: 0 15px;
+  }
+
+  .blueprint2, .blueprint3 {
+    padding: 0 15px;
+  }
+
+  .design_colum1, .design_colum2, .design_colum3 {
+    width: 100%;
+    padding: 0 15px 10px 15px;
+  }
+
+  .design_colum2 img, .design_colum3 img, .margin_top, .fashion {
+    height: auto;
+  }
+
+  .padding_right6, .padding_left6, .fashion_home2 {
+    padding: 0;
+  }
+
+  .responsive_padding {
+    padding-top: 20px;
+  }
+
+  .homeowner, .mirrors, .entry {
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .issue {
+    margin: 27px 0 0 !important;
+  }
+
+  .living_room {
+    padding-top: 0;
+  }
+
+  .block_text {
+    margin-bottom: 20px;
+  }
+
+  .column_imgh img{
+    max-width: 100%;
+    max-height: none;
+    margin: 1em 0;
+  }
+
+
+}
+
+/* nyasro.com */
+
+.mbr, .mbr-small {
+  display: none;
+}
+
+.feb-2017 .block img {
+  border: 1px solid #b3c0c0;
+  margin-bottom: 10px;
+}
+
+
+.ny-buzz-socials .social-media {
+  margin: 0;
+  max-width: none;
+  padding-top: 0;
+  margin-bottom: 20px;
+  margin-top: -5px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.ny-row-gap {
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 1171px) {
+  .blueprint,
+  .blueprint + div + div,
+  .blueprint + div + div + div + div,
+  .blueprint + div + div + div + div + div + div {
+    width: 711px;
+  }
+
+  .blueprint + div,
+  .blueprint + div + div + div,
+  .blueprint + div + div + div + div + div,
+  .blueprint + div + div + div + div + div + div + div {
+    width: 445px;
+    padding-left: 30px;
+  }
+
+}
+
+@media screen and (max-width: 1170px) and (min-width: 992px) {
+  .blueprint,
+  .blueprint + div + div,
+  .blueprint + div + div + div + div,
+  .blueprint + div + div + div + div + div + div {
+    width: 591px;
+  }
+
+  .blueprint + div,
+  .blueprint + div + div + div,
+  .blueprint + div + div + div + div + div,
+  .blueprint + div + div + div + div + div + div + div {
+    width: 363px;
+    padding-left: 30px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .beautiful {
+    letter-spacing: -1px;
+    word-spacing: -2px;
+  }
+
+  .block_head br {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .mbr.mbr {
+    display: block !important;
+  }
+
+  .beautiful + .issue {
+    margin-top: 0 !important;
+  }
+}
+
+@media screen and (max-width: 339px) {
+  .mbr-small.mbr-small {
+    display: block !important;
+  }
+}
+
+/* End of nyasro.com */
